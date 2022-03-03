@@ -1,0 +1,27 @@
+     e commerce is booming in current stage for example amazon, flipcart, lenscart etc.
+it recomend on the basis of the person choose the product the on the basis of the content base recomender system. in short in the current are or the online spacce recomender system playes the important role.
+
+    there are two type of recomender system
+    1. contnet base => eg. romantic song suggest the romantic song rather than cricket video. on the bais of somarity of contnent (tags ko basis ma )
+2. collaborative filtering => on the basis of intrest of user. 
+3. hybrid
+
+
+PROJECT FLOW
+
+    DATA ====> PRE-PROCESSING ====> MODEL BUILD GARNI ====> WEBSITE MA CONVERT GARNI ANI PRODUCT LAI DISPLAY GARNI 
+
+
+
+1. import numpy as np 
+import pandas as pd
+2.movies = pd.read_csv('tmdb_5000_movies.csv')
+credits = pd.read_csv('tmdb_5000_credits.csv')
+3.movies.head(1)==> to watch k x kati ota  cell xa vanarw 
+4. credits.head(1) ==> credit ko first row ko data find garna 
+5. 
+
+
+
+helper function lai define garna def convert(obj);
+
